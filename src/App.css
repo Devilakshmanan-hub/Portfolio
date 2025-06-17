@@ -1,0 +1,130 @@
+/* general styles */
+body {
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background:lightsalmon;
+    color:black;
+}
+h1,h2,h3{
+    margin: 0;
+    padding-bottom: 10px;
+}
+section{
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+/* Header */
+.head{
+    background:lightsteelblue;
+    color: black;
+    padding: 100px 20px;
+    text-align: center;
+}
+.head-content h1 span{
+    color: maroon;
+}
+.head-content img{
+ max-width: 30%;
+  border-radius: 50px 50px; /* Optional: rounds the corners */
+  display:inline-block;
+  margin: 0 auto;
+  object-fit:cover;
+  right: 20px;
+  position: absolute;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a soft shadow */
+}
+.btn{
+    display:inline-block ;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background:darkcyan;
+    color:indigo;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight:500;
+}
+/*About section */
+.about-content{
+    line-height:1.6 ;
+}
+.education h3{
+    margin-top:20px ;
+    color:darkslategray
+}
+/* Skills */
+.skills-container{
+    display:flexbox;
+    gap: 20px;
+}
+.skill-item{
+    background:rgb(243, 229, 191);
+    padding: 20px;
+    border-radius: 8px;
+}
+.skill-bar{
+    background:#e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.skill-progress {
+  background:#3498db;
+  height: 100%;
+  border-radius: 5px;
+}
+/* Project*/
+.projects-grid{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)) ;
+    gap:20px;
+}
+.project-card{
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+.project-tags span{
+    display: inline-block;
+    background:lightblue;
+    padding: 6px 8px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+/*Contact*/
+.contact form{
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+    max-width:500px;
+    margin: auto;
+}
+.contact input,
+.contact textarea{
+    padding: 10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+.contact button{
+    padding: 10px;
+    background: #87cde0;
+    border: none;
+    color:black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Footer */
+.footer{
+    background:lightsteelblue;
+    color:black;
+    text-align: center;
+    padding: 20px 10px;
+}
+.social-links a{
+    margin: 0 10px ;
+    text-decoration: none;
+    color: blue;
+
+}
+
+
